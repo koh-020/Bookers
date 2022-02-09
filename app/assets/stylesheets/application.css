@@ -1,0 +1,149 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*top画面*/
+.top-body{
+  margin: 20px;
+}
+.top-link{
+  margin-top: 20px;
+}
+
+
+h1{
+  margin: 20px;
+}
+
+/*index画面*/
+
+.index{
+  width: 800px;
+  margin: 20px;
+
+}
+
+.index-head{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+
+}
+
+
+.index-contents{
+  display: flex;
+  flex-wrap: wrap;
+}
+.index-title{
+  width: 200px;
+}
+
+.index-body{
+  width: 300px;
+}
+
+.empty{
+  width: 250px;
+}
+
+.index-link{
+  width: 250px;
+  display: flex;
+  flex-direction: row;
+}
+
+.index-link-item{
+  margin-right: 20px;
+}
+
+.error{
+  width: 500px;
+  height: 180px;
+  background-color: #dcdcdc;
+  border: solid red 3px;
+  margin: 20px;
+}
+
+.error-sentence{
+  background-color: #8b0000;
+  color: white;
+  padding: 5px 20px 5px 20px;
+  font-weight: bold;
+
+}
+
+.error-list{
+  padding: 50px;
+  list-style: square;
+  font-size: 12px;
+
+}
+
+.field_with_errors{
+    padding: 2px;
+    background-color: red;
+    display: table;
+}
+
+.new-contents{
+  margin: 20px;
+}
+
+.new-contents-item{
+  margin-top: 10px;
+}
+
+
+.field_with_errors{
+  background-color: red;
+}
+/*show画面*/
+
+.show-contents{
+  margin: 20px;
+}
+
+.show-contents-item{
+  margin: 20px;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.show-link{
+  margin: 20px;
+}
+
+/*edit画面*/
+
+.edit-contents{
+  margin: 20px;
+}
+
+.edit-contents-item{
+  margin-top: 20px;
+}
+
+.edit-link{
+  margin: 20px;
+}
